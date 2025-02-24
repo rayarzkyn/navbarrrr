@@ -12,46 +12,56 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-r from-blue-100 to-green-100 flex flex-col items-center p-6">
       
       {/* Konten */}
-      <h2 className="text-4xl font-bold mb-6 text-center text-indigo-800">Selamat Datang di CV Saya!</h2>
-      <p className="text-lg text-gray-700 text-center leading-relaxed space-y-6">
-        <span>
-          Halo! Saya Raya Rizkyana, seorang{" "}
-          <span className="font-semibold text-indigo-800">Web Developer & UI/UX Designer</span> dengan pengalaman dalam{" "}
-          <span className="font-semibold text-indigo-800">pengembangan website, desain antarmuka pengguna, dan administrasi database</span>.
-        </span>
+      <h2 className="text-4xl font-bold mb-6 text-center text-indigo-800">
+        Selamat Datang di CV Saya!
+      </h2>
 
-        <span>
-          Saya memiliki passion dalam menciptakan solusi kreatif dan inovatif untuk membantu bisnis dan individu mencapai tujuan mereka. 
-          Dengan keahlian di bidang{" "}
-          <span className="font-semibold text-indigo-800">HTML, CSS, JavaScript, UI/UX Design, serta Database Administration</span>, 
-          saya siap memberikan hasil terbaik dalam setiap proyek yang saya kerjakan.
+      <p className="text-lg text-gray-700 text-center leading-relaxed">
+        Halo! Saya Raya Rizkyana, seorang{" "}
+        <span className="font-semibold text-indigo-800">Web Developer & UI/UX Designer</span> 
+        dengan pengalaman dalam{" "}
+        <span className="font-semibold text-indigo-800">
+          pengembangan website, desain antarmuka pengguna, dan administrasi database.
         </span>
-
-        <div className="border-t-2 border-indigo-800 pt-6">
-          <h3 className="text-2xl font-bold text-indigo-800 mb-4">Apa yang Saya Tawarkan?</h3>
-          <ul className="space-y-4">
-            <li className="flex items-center">
-              <span className="text-green-600 text-xl mr-3">✅</span>
-              <span>Pembuatan Website Profesional – Website responsif, cepat, dan modern sesuai kebutuhan bisnis Anda.</span>
-            </li>
-            <li className="flex items-center">
-              <span className="text-green-600 text-xl mr-3">✅</span>
-              <span>Desain UI/UX yang Menarik – Pengalaman pengguna yang intuitif dan desain yang estetis.</span>
-            </li>
-            <li className="flex items-center">
-              <span className="text-green-600 text-xl mr-3">✅</span>
-              <span>Administrasi Database – Pengelolaan dan optimasi database untuk performa yang lebih baik.</span>
-            </li>
-          </ul>
-        </div>
       </p>
+
+      <p className="text-lg text-gray-700 text-center leading-relaxed">
+        Saya memiliki passion dalam menciptakan solusi kreatif dan inovatif untuk membantu 
+        bisnis dan individu mencapai tujuan mereka. Dengan keahlian di bidang{" "}
+        <span className="font-semibold text-indigo-800">
+          HTML, CSS, JavaScript, UI/UX Design, serta Database Administration
+        </span>, saya siap memberikan hasil terbaik dalam setiap proyek yang saya kerjakan.
+      </p>
+
+      {/* Apa yang Saya Tawarkan */}
+      <div className="border-t-2 border-indigo-800 pt-6">
+        <h3 className="text-2xl font-bold text-indigo-800 mb-4">Apa yang Saya Tawarkan?</h3>
+        <ul className="space-y-4">
+          <li className="flex items-center">
+            <span className="text-green-600 text-xl mr-3">✅</span>
+            <span>Pembuatan Website Profesional – Website responsif, cepat, dan modern sesuai kebutuhan bisnis Anda.</span>
+          </li>
+          <li className="flex items-center">
+            <span className="text-green-600 text-xl mr-3">✅</span>
+            <span>Desain UI/UX yang Menarik – Pengalaman pengguna yang intuitif dan desain yang estetis.</span>
+          </li>
+          <li className="flex items-center">
+            <span className="text-green-600 text-xl mr-3">✅</span>
+            <span>Administrasi Database – Pengelolaan dan optimasi database untuk performa yang lebih baik.</span>
+          </li>
+        </ul>
+      </div>
 
       {/* Call to Action */}
       <section id="cta" className="mt-12 p-6 bg-indigo-800 text-white rounded-lg w-full max-w-3xl text-center">
         <h3 className="text-3xl font-bold mb-4">Siap Memulai Proyek Anda?</h3>
-        <p className="text-lg mb-4">Mari bekerja sama untuk menciptakan sesuatu yang luar biasa! Apakah itu website baru, desain ulang, atau optimasi pengalaman pengguna, saya siap membantu Anda setiap langkahnya.</p>
+        <p className="text-lg mb-4">
+          Mari bekerja sama untuk menciptakan sesuatu yang luar biasa! Apakah itu website baru, desain ulang, atau optimasi pengalaman pengguna, saya siap membantu Anda setiap langkahnya.
+        </p>
         <Link href="/contact">
-          <span className="px-8 py-3 bg-green-500 rounded-full text-lg hover:bg-green-600 transition duration-300">Hubungi Saya</span>
+          <span className="px-8 py-3 bg-green-500 rounded-full text-lg hover:bg-green-600 transition duration-300">
+            Hubungi Saya
+          </span>
         </Link>
       </section>
 
